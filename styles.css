@@ -1,0 +1,525 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  color: #18191F;
+}
+
+.inner-wrapper {
+  max-width: 1075px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 105px;
+  height: auto;
+}
+
+.logo-link {
+  margin-right: 32px;
+}
+
+.logo-link:hover {
+  opacity: 1;
+}
+
+.menu {
+  margin-right: auto;
+  font-weight: bold;
+  font-feature-settings: 'liga' off;
+}
+
+.menu-item {
+  color: inherit;
+  text-decoration: none;
+  margin-right: 32px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.download-image {
+  width: 135px;
+  height: auto;
+}
+
+.download-item {
+  font-size: 0;
+}
+
+a:hover {
+  opacity: 0.65;
+}
+
+.download-item:first-child {
+  margin-right: 12px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 72px;
+  align-items: center;
+}
+
+.main-screen-background {
+  background-image: url("./img/background.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.promo-screen {
+  max-width: 320px;
+  max-height: 640px;
+  width: 40%;
+  height: auto;
+}
+
+.cta-wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.main-screen-background .inner-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-heading {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  font-feature-settings: 'liga' off;
+}
+
+.button {
+  background: #8C30F5;
+  border: none;
+  border-radius: 8px;
+  width: 196px;
+  height: 62px;
+  -webkit-appearance: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 20px;
+  font-feature-settings: 'liga' off;
+  color: #FFFFFF;
+}
+
+.button-link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  font-feature-settings: 'liga' off;
+  color: #8C30F5;
+  text-decoration: none;
+}
+
+.button-link-arrow {
+  width: 22px;
+  height: auto;
+}
+
+.section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.description-screen .inner-wrapper {
+  display: flex;
+}
+
+.description-screen .block {
+  width: 50%;
+}
+
+.image-block {
+  background-color: #F1E4FF;
+  padding-top: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.content-block {
+  padding-left: 48px;
+  padding-right: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.image-block .promo-screen {
+  width: 75%;
+  position: absolute;
+  max-width: initial;
+  max-height: initial;
+  top: 56px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.h3 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  font-feature-settings: 'liga' off;
+}
+
+.content-block .h3 {
+  margin-bottom: 32px;
+}
+
+.content-block .content {
+  margin-bottom: 32px;
+}
+
+.content {
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: 'liga' off;
+}
+
+.h2 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: 'liga' off;
+}
+
+.h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  font-feature-settings: 'liga' off;
+}
+
+.h5 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  font-feature-settings: 'liga' off;
+}
+
+.steps-wrapper {
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.step {
+  padding-right: 30px;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.step-top {
+  display: flex;
+  align-items: flex-end;
+}
+
+.step-line {
+  width: calc(100% - 88px);
+}
+
+.step:nth-child(2n - 1) .step-line {
+  transform: translate(0, -10px) rotate(-10deg);
+  transform-origin: bottom left;
+}
+
+.step:nth-child(2n) .step-line {
+  transform: translate(0, 10px) rotate(200deg);
+  align-self: flex-start;
+}
+
+.step:last-child .step-line {
+  display: none;
+}
+
+.step .h4 {
+  margin-bottom: 4px;
+}
+
+.step .content {
+  font-size: 16px;
+}
+
+.step-circle {
+  width: 72px;
+  min-width: 72px;
+  max-width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #F4F5F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
+
+.step-icon {
+  width: 24px;
+  height: auto;
+}
+
+.section-centred {
+  text-align: center;
+}
+
+.section-centred .h2 {
+  margin-bottom: 40px;
+}
+
+.section-centred .button {
+  width: 240px;
+}
+
+.features-wrapper {
+  max-height: 100vh;
+  height: 720px;
+  display: flex;
+}
+
+.features-wrapper .promo-screen {
+  height: 100%;
+  width: auto;
+  max-width: initial;
+  max-height: initial;
+}
+
+.promo-screen-wrapper {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+
+.features-list {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 32px;
+}
+
+.feature-item {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.feature-item:last-child {
+  margin-bottom: 0;
+}
+
+.feature-item .step-circle {
+  margin-right: 40px;
+}
+
+.news-wrapper {
+  display: flex;
+  margin-top: 40px;
+}
+
+.news {
+  width: 25%;
+  margin-right: 30px;
+}
+
+.news-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.news:last-child {
+  margin-right: 0;
+}
+
+.section.download-section {
+  background-color: #8C30F5;
+  color: #fff;
+}
+
+.section.download-section .button {
+  background-color: #fff;
+  color: #8C30F5;
+}
+
+.advantages-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.advantage {
+  font-size: 14px;
+  line-height: 24px;
+  font-feature-settings: 'liga' off;
+  display: flex;
+  align-items: center;
+}
+
+.advantage-icon {
+  margin-right: 16px;
+}
+
+.brands-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.brand-image {
+  margin-right: 64px;
+  height: 26px;
+  width: auto;
+}
+
+.brand-image:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu, .main-screen-background .promo-screen {
+      display: none;
+  }
+
+  .inner-wrapper {
+      padding-left: 30px;
+      padding-right: 30px;
+      box-sizing: border-box;
+  }
+
+  .download-image {
+      width: 90px;
+  }
+
+  .logo {
+      margin-right: auto;
+      width: 90px;
+  }
+
+  .h1 {
+      font-size: 48px;
+      line-height: 64px;
+      text-align: center;
+  }
+
+  .h2{
+      font-size: 36px;
+      line-height: 1.5;
+      text-align: center;
+  }
+
+  .steps-wrapper{
+      flex-direction: column;
+  }
+
+  .step{
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+      padding: 0;
+      margin-bottom: 40px;
+      text-align: center;
+  }
+
+  .step-circle{
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+
+  .step-line{
+      display: none;
+  }
+
+  .cta-heading {
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+  }
+
+  .cta-heading .h1 {
+      margin-bottom: 30px;
+  }
+
+  .description-screen {
+      padding-top: 0;
+  }
+
+  .description-screen .inner-wrapper {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .description-screen .block {
+      width: 100%;
+  }
+
+  .image-block {
+      padding-top: 100%;
+      margin-bottom: 32px;
+  }
+
+  .content-block {
+      padding: 0;
+  }
+
+  .features-wrapper {
+      max-height: initial;
+      height: auto;
+  }
+
+  .features-wrapper .promo-screen-wrapper{
+      display: none;
+  }
+
+  .feature-item .step-circle{
+      margin-right: 0;
+  }
+
+  .features-list{
+      width: 100%;
+      margin-right: 0;
+      margin-top: 50px;
+  }
+
+  .feature-item{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .news-wrapper, .advantages-wrapper{
+      flex-direction: column;
+  }
+
+  .news, .advantage{
+      width: 100%;
+      margin-top: 30px;
+  }
+
+  .advantages-wrapper{
+      margin-top: 0;
+  }
+
+  .brands-wrapper{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .brand-image{
+      margin-right: 0;
+      margin-bottom: 40px;
+  }
+}
